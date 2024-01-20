@@ -199,7 +199,7 @@ the time source:
     MS Name/IP address         Stratum Poll Reach LastRx Last sample               
     ===============================================================================
     #x GPS                           0   4     7    12  -1000ms[ -998ms] +/-  200ms
-    #* PPS                           0   4     7    12     +4ns[+1807us] +/-  513ns
+    #* PPS                           0   4   377    22   -309ns[ -377ns] +/-  101ns
     ^- 159-196-3-239.9fc403.mel>     2   6    77    12  +1593us[+3400us] +/-   24ms
     ^- 220-158-215-20.broadband>     2   6    77    13  -2657us[ -848us] +/-   91ms
     ^- time.blockbluemedia.com       4   6    77    13  -1318us[ +490us] +/-   58ms
