@@ -171,6 +171,10 @@ Edit the file `/etc/chrony/chrony.conf`:
 This adds the refclocks and sets the daemon as an NTP time source for the network. The `rtcsync` directive might
 already be in the configuration file.
 
+NOTE: An important thing to keep in mind here is that PPS refclock above isn't a raw PPS signal. It is PPS corrected
+time from the GPS. GPSd takes care of this so we don't need to deal with raw PPS signals here in chrony. Relying on
+GPSd to deal with this also means we can get both the PPS corrected time and actual GPS data from the same GPS.
+
 Restart `chrony` to get the updated configuration:
 
     systemctl restart chrony
