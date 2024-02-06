@@ -36,28 +36,6 @@ Set protocol variable:
 
     export UBXOPTS="-P 18 -v 2"
 
-### [Reset](https://gpsd.io/ubxtool-examples.html#_default_configuration)
-
-This will clear all settings back to the initial setup
-
-    ubxtool -p RESET localhost:2947:/dev/ttyAMA0
-
-Use the binary protocol instead of NMEA:
-
-    ubxtool -e BINARY localhost:2947:/dev/ttyAMA0
-    ubxtool -d NMEA localhost:2947:/dev/ttyAMA0
-
-### Check Constellations
-
-    ubxtool -p MON-GNSS localhost:2947:/dev/ttyAMA0
-
-    UBX-MON-GNSS:
-       version 0 supported 0xf defaultGnss 0x3 enabled 0xb
-       simultaneous 3 reserved1 0 0 0
-         supported (GPS Glonass Beidou Galileo)
-         defaultGnss (GPS Glonass)
-         enabled (GPS Glonass Galileo)
-
 ### Check the Configuration
 
     ubxtool -p CFG-GNSS localhost:2947:/dev/ttyAMA0
@@ -79,7 +57,29 @@ Use the binary protocol instead of NMEA:
       gnssId 6 TrkCh  8 maxTrCh 14 reserved 0 Flags x01010001
        GLONASS L1 enabled
 
+### [Reset](https://gpsd.io/ubxtool-examples.html#_default_configuration)
+
+This will clear all settings back to the initial setup
+
+    ubxtool -p RESET localhost:2947:/dev/ttyAMA0
+
+Use the binary protocol instead of NMEA:
+
+    ubxtool -e BINARY localhost:2947:/dev/ttyAMA0
+    ubxtool -d NMEA localhost:2947:/dev/ttyAMA0
+
 ## [Managing Constellations](https://gpsd.io/ubxtool-examples.html#_constellations)
+
+### Check Constellations
+
+    ubxtool -p MON-GNSS localhost:2947:/dev/ttyAMA0
+
+    UBX-MON-GNSS:
+       version 0 supported 0xf defaultGnss 0x3 enabled 0xb
+       simultaneous 3 reserved1 0 0 0
+         supported (GPS Glonass Beidou Galileo)
+         defaultGnss (GPS Glonass)
+         enabled (GPS Glonass Galileo)
 
 ### Enable and Disable Constellations
 
