@@ -41,6 +41,10 @@ Instructions for the server setup are [here](docs/server.md)
 
 Instructions for the client setup are [here](docs/client.md)
 
+## GPS Configuration
+
+Instructions for customising the GPS configuration are [here](docs/gps-configuration.md)
+
 ## Reference
 
 RaspberryPi
