@@ -139,7 +139,7 @@ You should see an output similar to below:
     │ Speed Err (EPS):       +/-  2.1 km/h      ││GL 12   76  20.0  247.0   0.0  N │
     │ Track Err (EPD):        n/a               ││GL 13   77   7.0  204.0   0.0  N │
     │ Time offset:            1.017777314 s     ││GL 20   84  24.0   92.0   0.0  N │
-    │ Grid Square:            QF21gr27          ││GL 21   85  58.0  163.0   0.0  N │
+    │ Grid Square:            ZZZZZZZZ          ││GL 21   85  58.0  163.0   0.0  N │
     └─aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa┘└More...eeeeeeeeeeeeeeeeeeeeeeeeee┘
 
 
