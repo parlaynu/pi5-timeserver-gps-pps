@@ -47,6 +47,10 @@ Instructions for customising the GPS configuration are [here](docs/gps-configura
 
 ## Reference
 
+Great Example using NTP
+
+* https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html
+
 RaspberryPi
 
 * https://www.raspberrypi.com/products/raspberry-pi-5/
@@ -81,4 +85,5 @@ Chrony
 PTP
 
 * https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s0-serving_ntp_time_with_ptp
+
 
